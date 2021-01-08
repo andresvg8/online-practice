@@ -3,6 +3,8 @@
  */
 package principal;
 
+import java.awt.List;
+
 /**
  * @author andres
  *
@@ -28,11 +30,18 @@ public class Principal {
 		String a="Hello";
 		new TestClass().probe(a);
 		
-		char c="f";
-		int ar[][] = new int[][5];
+		//char c="f";
+		//int ar[][] = new int[][5];
 		String s = 'b'+new Integer(63)+"a";
 		int []b[]=new int[4][];
 		Integer num=new Integer(5);
+		
+		int abc=0;
+		while(abc<10) {
+			
+		}
+		
+		List<String> lista = new List<String>();
 	}
 
 }
